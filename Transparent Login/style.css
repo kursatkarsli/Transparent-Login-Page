@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(./view.jpg);
+  background-size: cover;
+  background-position: 0 -30px;
+  height: 660px;
+  font-family: sans-serif;
+}
+.box {
+  width: 370px;
+  height: 500px;
+  margin: 30px auto;
+  box-shadow: 0 5px 25px rgba(212, 222, 255, 0.788);
+  padding: 50px;
+}
+.box .top span {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.box .top span:last-of-type {
+  margin-left: 30px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid orange;
+}
+.box .middle p {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+  margin-top: 75px;
+}
+.box .bottom {
+  margin-top: 50px;
+}
+.box .bottom span {
+  color: #fff;
+}
+.box .bottom span:last-of-type {
+  display: block;
+  padding: 8px 15px;
+  width: 40%;
+  margin: 40px auto;
+  text-transform: uppercase;
+  background-color: orange;
+  border-radius: 20px;
+  text-align: center;
+}
+span > button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.box .bottom span:last-of-type:active {
+  box-shadow: 0 0 0 3px #159;
+}
+a {
+  text-decoration: none;
+  color: rgb(31, 5, 124);
+  font-weight: bold;
+}
